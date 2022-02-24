@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  height: 100vh;
+  background-color: hsl(217, 19%, 14%);
+  padding: 0px 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.container__card {
+  position: relative;
+
+  max-width: 500px;
+
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 20px;
+  background-color: hsl(217, 19%, 24%);
+}
+
+#advice-id {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: hsl(150, 100%, 66%);
+
+  margin-bottom: 24px;
+}
+
+#advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 2.6rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+.container__card-imgDivider img {
+  margin-top: 30px;
+}
+
+.container__card-dice {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -40px;
+  width: 30px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 300ms all ease;
+}
+
+.container__card-dice:hover {
+  box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
